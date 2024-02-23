@@ -1163,6 +1163,7 @@ button:focus {
 	max-height: 400px;
 	list-style: none;
 	margin-left: 30px;
+	margin-bottom: 20px;
 }
 .select:not(:last-child){
 	margin-bottom: 30px;
