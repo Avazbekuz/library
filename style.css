@@ -1191,18 +1191,16 @@ button:focus {
 }
 .book-right{
 	width: 700px;
-
 }
-.book-right h1 {
-	font-size: 23px;
-	margin-right: 20px;
-	display: flex;
-	align-items: baseline;
-}
-.book-right h1 p {
+.text-card h1 {
 	font-weight: 700;
-	font-size: 18px;
-	margin-left: 5px;
+	font-size: 25px;
+	margin-right: 5px;
+}
+.text-card h1 span {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 30px;
 }
 .book-right-text {
 	display: flex;
@@ -1489,6 +1487,42 @@ button:focus {
 	.card :not(:last-child()){
 		margin-bottom: 20px;
 	}
+	.book-show{
+		display: block;
+	}
+	.book-right{
+		width: 350px;
+		margin-top: 20px;
+	}
+	.book-right-text{
+		display: block;
+	}
+	.text-card{
+		width: 300px;
+	}
+	.text-card h1 span{
+		font-weight: 600;
+		font-size: 20px;
+		width: 300px;
+	}
+	.img{
+		border-radius: 20px;
+	}
+	.book-left{
+		margin-left: 30px;
+	}
+	.book-right{
+		margin-left: 30px;
+	}
+	.book-right-p{
+		width: 300px;
+	}
+	.book-show {
+		margin-bottom: 30px;
+	}
+	.main{
+		margin-top: 70px;
+	}
 
 }
 
@@ -1543,6 +1577,39 @@ button:focus {
 	}
 	.card :not(:last-child()){
 		margin-bottom: 20px;
+	}
+	.book-show{
+		display: block;
+	}
+	.book-right{
+		width: 350px;
+		margin-top: 20px;
+	}
+	.book-right-text{
+		display: block;
+	}
+	.text-card{
+		width: 300px;
+	}
+	.text-card h1 span{
+		font-weight: 600;
+		font-size: 20px;
+		width: 300px;
+	}
+	.img{
+		border-radius: 20px;
+	}
+	.book-left{
+		margin-left: 13px;
+	}
+	.book-right{
+		margin-left: 15px;
+	}
+	.book-right-p{
+		width: 300px;
+	}
+	.book-show {
+		margin-bottom: 30px;
 	}
 
 }
